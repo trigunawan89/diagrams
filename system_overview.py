@@ -70,7 +70,7 @@ with Diagram(
         )
 
     with SystemBoundary("IOT ", direction="LR"):
-        aws_cloud = Container(
+        aws_cloud = Database(
             name="Cloud Storage",
             technology="AWS IoT, AWS S3",
             description="Storage Pool",
@@ -91,7 +91,7 @@ with Diagram(
             description="ETL",
         )
 
-        data_warehouse = Container(
+        data_warehouse = Database(
             name="Data Warehouse",
             technology="PostgreSQL, Redshift",
             description="Data Model, Metric",
