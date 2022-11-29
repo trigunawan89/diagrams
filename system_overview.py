@@ -17,6 +17,7 @@ with Diagram(
     direction="TB",
     graph_attr=graph_attr,
     filename="System Architecture",
+    show=False,
 ):
     user = Person(
         name="External & Internal User",
