@@ -8,6 +8,8 @@ from diagrams.c4 import (
     Relationship,
 )
 
+FILENAME = "system_overview"
+
 graph_attr = {
     "splines": "spline",
 }
@@ -16,7 +18,7 @@ with Diagram(
     "System Architecture (C4 Format)",
     direction="TB",
     graph_attr=graph_attr,
-    filename="System Architecture",
+    filename=FILENAME,
     show=False,
 ):
     user = Person(
