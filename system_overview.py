@@ -50,7 +50,7 @@ with Diagram(
     with SystemBoundary("ERP"):
         fronted_in = Container(
             name="Odoo Web",
-            technology="Odoo, XML, OWL",
+            technology="Odoo",
             description="ERP, HRIS, B2B",
         )
 
