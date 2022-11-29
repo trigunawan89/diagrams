@@ -1,6 +1,0 @@
-#!/home/tgunawan/05-CODE/11-DIAGRAMS/env/bin/python3
-
-import diagram
-import sys
-
-sys.exit(diagram.run())
